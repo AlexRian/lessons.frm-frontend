@@ -1,0 +1,30 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+}
+
+.child{
+    width: 100px;
+    height: 20px;
+}
+
+.child:first-child{
+    background-color: red;
+    align-self: flex-start;
+}
+
+.child:last-child{
+    background-color: green;
+}
+
+.child:nth-child(2){
+    background-color: yellow;
+}

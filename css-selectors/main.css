@@ -1,0 +1,75 @@
+h3 {
+    color: red;
+}
+
+.title {
+    color: green;
+}
+
+#unique {
+    color: brown;
+}
+
+.highlight{
+    color: black;
+}
+
+a{
+    color: black;
+}
+
+a[href^="http://"]{
+    color: blueviolet;
+}
+
+/* *{
+    font-size: 20px;
+} */
+
+.first + .second {
+    color: blue;
+}
+
+/* .article > p {
+    color: rebeccapurple;
+} */
+
+.article p {
+    color: blue;
+}
+
+/* a:active {
+    color: red;
+}
+
+a:hover{
+    font-size: 30px;
+} */
+
+a:visited {
+    color: red;
+}
+
+/* input:focus{
+    border: 2px solid red;
+} */
+
+li:first-child{
+    color: red;
+}
+
+li:nth-child(2){
+    color: yellow;
+}
+
+li:nth-child(3){
+    color: green;
+}
+
+input:empty {
+    border: 2px solid red;
+}
+
+/* li:last-child {
+    color: green;
+} */

@@ -1,0 +1,308 @@
+@font-face {
+  font-family: SourceSansBold;
+  src: url(fonts/SourceSans3-Bold.ttf);
+}
+
+@font-face {
+  font-family: SourceSansSemiBold;
+  src: url(fonts/SourceSans3-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: SourceSansRegular;
+  src: url(fonts/SourceSans3-Regular.ttf);
+}
+
+p, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+    font-weight: unset;
+}
+
+body{
+    margin: 0px;
+}
+
+main{
+    padding: 0 130px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 0px;
+}
+
+.contacts{
+    display: flex;
+    gap: 20px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contact p{
+    font-family: SourceSansRegular;
+    color: #333333;
+    font-size: 14px;
+}
+
+.contact a{
+    font-family: SourceSansSemiBold;
+    color: #607CE6;
+    font-size: 20px;
+}
+
+.delimeter {
+    height: 2px;
+    border-bottom: 1px solid #888888;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 15px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav a{
+    font-family: SourceSansRegular;
+    color: #333333;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.call p{
+    font-family: SourceSansRegular;
+    font-size: 16px;
+    color: #607CE6;
+    text-transform: uppercase;
+}
+
+.brand{
+    margin-top: 80px;
+}
+
+.brand .information{
+    display: flex;
+    align-items: center;
+}
+
+.information h1{
+    font-family: SourceSansBold;
+    width: 50%;
+    font-size: 60px;
+    color: #333333;
+}
+
+.information p{
+    font-family: SourceSansRegular;
+    font-size: 16px;
+    color: #333333;
+    width: 30%;
+}
+
+.information-image{
+    margin-top: 32px;
+}
+
+.information-image img{
+    width: 100%;
+}
+
+h2{
+    font-family: SourceSansBold;
+    color: #333333;
+    font-size: 48px;
+}
+
+.about{
+    margin-top: 80px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-text{
+    font-family: SourceSansRegular;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about-images{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-images img{
+    width: calc(50% - 10px);
+}
+
+.products{
+    margin-top: 80px;
+}
+
+.products-column{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 30%;
+}
+
+.product-item{
+    height: 435px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 30px 25px;
+    background-color: #F5F5F5;
+}
+
+.product-item img{
+    width: 200px;
+}
+
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-info h5 {
+    font-family: SourceSansBold;
+    font-size: 28px;
+    color: #333333;
+}
+
+.product-info a {
+    font-family: SourceSansRegular;
+    font-size: 28px;
+    color: #607CE6;
+}
+
+.products-list{
+    margin-top: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.news{
+    margin-top: 80px;
+}
+
+.news-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.news-detail{
+    display: flex;
+    flex-direction: column;
+}
+
+.news-detail img{
+    width: 100%;
+}
+
+.news-info{
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #F5F5F5;
+}
+
+.news-info h5{
+    font-family: SourceSansRegular;
+    font-size: 20px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 80px;
+}
+
+.date a{
+    font-family: SourceSansRegular;
+    text-decoration: none;
+    color: #607CE6;
+    font-size: 16px;
+}
+
+.date p{
+    font-family: SourceSansRegular;
+    color: #888888;
+    font-size: 16px;
+}
+
+.footer{
+    margin-top: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+
+    padding: 60px 130px;
+}
+
+.footer-menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.column a{
+    font-family: SourceSansRegular;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.disclaimer{
+    font-family: SourceSansRegular;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    color: #FFFFFF;
+}
