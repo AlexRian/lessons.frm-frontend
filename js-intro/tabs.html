@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .information{
+            padding: 10px;
+            border: 1px solid black;
+            width: 30%;
+            margin-top: 10px;
+        }
+        
+        .text:not(:first-child){
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="tabs">
+        <div class="buttons">
+            <button data-index="1">First</button>
+            <button data-index="2">Second</button>
+            <button data-index="3">Third</button>
+        </div>
+        <div class="information">
+            <div class="text">
+                First Text
+            </div>
+            <div class="text">
+                Second Text
+            </div>
+            <div class="text">
+                Third Text
+            </div>
+        </div>
+    </div>
+    
+    <script src="tabs.js"></script>
+</body>
+</html>
