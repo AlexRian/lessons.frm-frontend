@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        .filters{
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="filters">
+        <label for="">
+            Company
+            <input type="text" placeholder="Company" id="companyInput">
+        </label>
+        <label for="">
+            Country
+            <select name="" id="countryInput">
+                <option value="">Choose country</option>
+                <option value="Germany">Germany</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Austria">Austria</option>
+                <option value="Italy">Italy</option>
+            </select>
+        </label>
+    </div>
+    <table>
+        <tbody>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+        </tbody>
+    </table>
+    <!-- <script src="main.js"></script> -->
+    <script src="table.js"></script>
+</body>
+</html>
